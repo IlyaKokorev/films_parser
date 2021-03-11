@@ -27,4 +27,4 @@ bundle install
 bundle exec ruby main.rb
 ```
 
-![Скриншот программы](https://ibb.co/6492cDQ)
+![Скриншот программы](https://github.com/IlyaKokorev/films_parser/blob/master/lib/image/films_parser.png?raw=true)
