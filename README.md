@@ -1,24 +1,30 @@
-# README
+# Программа "Фильм на вечер" 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+---
 
-Things you may want to cover:
+Учебное приложение на `Ruby 2.5.8p224`
 
-* Ruby version
+Помогает определиться с выбором фильма для вечернего просмотра.
 
-* System dependencies
+Парсит фильмы c [IMDB-100](https://www.imdb.com/list/ls055592025/)
 
-* Configuration
+При создании использованы гемы:
 
-* Database creation
+* `nokogiri`
+* `open-uri`
 
-* Database initialization
+## Как установить и запустить
 
-* How to run the test suite
+---
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+git clone git@github.com:IlyaKokorev/films_parser.git
 
-* Deployment instructions
+cd ./film_parser
 
-* ...
+bundle install
+
+bundle exec ruby main.rb
+```
+
+![Скриншот программы](https://ibb.co/6492cDQ)

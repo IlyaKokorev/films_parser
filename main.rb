@@ -31,5 +31,5 @@ while user_choice != 1
 
   user_choice = STDIN.gets.to_i
 
-  puts 'Приятного просмотра!'
+  puts 'Приятного просмотра!' if user_choice == 1
 end
