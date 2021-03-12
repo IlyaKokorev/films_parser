@@ -7,7 +7,7 @@ class FilmCollection
     @films = films_collection
   end
 
-  def collect_director
+  def directors
     @films.map(&:director).uniq
   end
 
